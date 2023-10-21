@@ -1,6 +1,6 @@
 //
 //  FlightListView.swift
-//  FindFlights 
+//  FindFlights
 //
 //  Created by Rahul C K on 18/10/23.
 //
@@ -9,36 +9,39 @@ import SwiftUI
 
 struct FlightListingView: View {
     @StateObject var viewModel: FlightListViewModel
-
+    
     init(viewModel: FlightListViewModel) {
         self._viewModel = StateObject(wrappedValue: viewModel)
     }
-
+    
     var body: some View {
         List {
             ForEach(viewModel.flights, id: \.id) { flightDetails in
                 flightView(flightDetails: flightDetails)
             }
-        }.listStyle(.grouped).navigationBarTitle(viewModel.flightListingViewtitle(),
-                                                 displayMode: .large).onAppear {
-            viewModel.fetchFlights()
-        }.overlay(alignment: .center) {
-            if viewModel.isLoading {
-                LoadingSearchView()
+        }.listStyle(.grouped)
+            .navigationBarTitle(viewModel.flightListingViewtitle(),
+                                displayMode: .large).onAppear {
+                viewModel.fetchFlights()
+                viewModel.saveSearchData()
+            }.overlay(alignment: .center) {
+                if viewModel.isLoading {
+                    LoadingSearchView()
+                }
+                else if viewModel.loadingFailed {
+                    EmptySearchResultView()
+                } else {
+                    EmptyView()
+                }
             }
-            else if viewModel.loadingFailed {
-                EmptySearchResultView()
-            } else {
-                EmptyView()
-            }
-        }
     }
-  
+    
     func flightView(flightDetails: FlightDetails) -> some View {
         VStack {
             HStack(spacing: 10) {
                 VStack(alignment: .center, spacing: 10) {
-                    Text(viewModel.flightTimeFromDateString(flightDetails.departureTime))                        .font(.subheadline).fontWeight(.black)
+                    Text(viewModel.flightTimeFromDateString(flightDetails.departureTime))
+                        .font(.subheadline).fontWeight(.black)
                     Text(flightDetails.departureAirport).font(.caption2)
                 }
                 Spacer()

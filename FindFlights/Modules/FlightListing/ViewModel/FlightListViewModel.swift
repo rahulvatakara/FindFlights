@@ -12,15 +12,19 @@ final class FlightListViewModel: ObservableObject {
     private let searchAPIHandler: SearchAPIHandling
     private var cancellables = Set<AnyCancellable>()
     private var searchFlightParameters: SearchFlightParameters
+    private let recentSearchHandler: RecentSearchStorageHandling
     @Published var isLoading: Bool = false
     @Published var loadingFailed: Bool = false
     @Published var flights: [FlightDetails] = []
     
-    init(searchAPIHandler: SearchAPIHandling = NetworkHandler(), searchFlightParameters: SearchFlightParameters) {
+    init(searchAPIHandler: SearchAPIHandling = NetworkHandler(),
+         recentSearchHandler: RecentSearchStorageHandling = RecentSearchStorageHandler(),
+         searchFlightParameters: SearchFlightParameters) {
         self.searchAPIHandler = searchAPIHandler
+        self.recentSearchHandler = recentSearchHandler
         self.searchFlightParameters = searchFlightParameters
     }
-    
+
     func fetchFlights() {
         self.isLoading = true
         searchAPIHandler.fetchFlights(searchFlightParam: searchFlightParameters)
@@ -62,4 +66,9 @@ final class FlightListViewModel: ObservableObject {
             
         }
     }
+
+    func saveSearchData() {
+        recentSearchHandler.addRecentSearch(self.searchFlightParameters)
+    }
+
 }

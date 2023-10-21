@@ -18,16 +18,19 @@ struct SearchView: View {
     
     var body: some View {
         NavigationView(content: {
-            VStack(alignment: .center, spacing: 10) {
-                travelTypeSelectionView
-                sourceAirportPickerView
-                destinationAirportView
-                travelDatePickerView
-                passengerPickerView
-                searchButton
-            }.padding(.horizontal, 20)
-                .navigationBarTitle(RYStrings.searchFindFlights.rawValue,
-                                    displayMode: .large)
+            ScrollView(.vertical) {
+                VStack(alignment: .center, spacing: 10) {
+                    RecentSearchView(viewModel: .init())
+                    travelTypeSelectionView
+                    sourceAirportPickerView
+                    destinationAirportView
+                    travelDatePickerView
+                    passengerPickerView
+                    searchButton
+                }.padding(.horizontal, 20)
+                    .navigationBarTitle(RYStrings.searchFindFlights.rawValue,
+                                        displayMode: .large)
+            }
         })
     }
     

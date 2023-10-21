@@ -8,6 +8,7 @@
 import Foundation
 
 struct SearchFlightParameters: Encodable {
+    let id: UUID? = UUID()
     let origin: String
     let destination: String
     let dateOut: String
@@ -38,5 +39,17 @@ struct SearchFlightParameters: Encodable {
         case roundtrip
         case termsAgreed = "ToUs"
         case discount = "Disc"
+    }
+}
+extension SearchFlightParameters {
+    var totalPassengers: Int8 {
+        adultCount + teenCount + childCount
+    }
+    var startDate: String {
+        return dateOut.convertDate(from: "yyyy-MM-dd", to: "dd MMM")
+    }
+
+    var returnDate: String {
+        return dateIn?.convertDate(from: "yyyy-MM-dd", to: "dd MMM") ?? ""
     }
 }

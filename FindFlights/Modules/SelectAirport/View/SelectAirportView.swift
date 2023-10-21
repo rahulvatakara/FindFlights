@@ -20,12 +20,12 @@ struct SelectAirportView: View {
             Spacer()
             List {
                 ForEach(viewModel.filteredAccounts, id: \.self.code) { airport in
-                    Button(action: {
+                    Button {
                         $selectedAirport.wrappedValue = airport
                         dismiss()
-                    }, label: {
+                    } label: {
                         airportView(airport: airport)
-                    })
+                    }
                 }
             }.onAppear(perform: {
                 viewModel.fetchAirports()

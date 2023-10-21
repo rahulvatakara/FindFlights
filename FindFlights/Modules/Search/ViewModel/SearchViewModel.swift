@@ -18,7 +18,7 @@ final class SearchViewModel: ObservableObject {
     @Published var startDate: Date?
     @Published var returnDate: Date?
     @Published var tripType = 0
-    
+
     var isRoundTrip: Bool {
         tripType == 0
     }
@@ -122,7 +122,7 @@ final class SearchViewModel: ObservableObject {
             adultCount: passengerDetails.numberOfAdults,
             teenCount: passengerDetails.numberOfTeens,
             childCount: passengerDetails.numberOfChildren,
-            roundtrip: false,
+            roundtrip: isRoundTrip,
             termsAgreed: "AGREED",
             discount: 0
         )

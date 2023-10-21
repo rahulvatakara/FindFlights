@@ -12,7 +12,18 @@ class PassengerCountPickerViewModel: ObservableObject {
     @Published var numberOfTeens: Int8
     @Published var numberOfInfants: Int8
     @Published var numberOfChildren: Int8
-    
+
+    var minNumberOfAdults: Int8 {
+        return 1
+    }
+    var minNumberOfSeats: Int8 {
+        return 0
+    }
+
+    var maxNumberOfSeats: Int8 {
+        return 8
+    }
+
     init(numberOfAdults: Int8,
          numberOfTeens: Int8,
          numberOfInfants: Int8,

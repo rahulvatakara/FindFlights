@@ -36,6 +36,7 @@ enum RYStrings: String {
     case adjustSearchMessage = "Please adjust your search criteria and try again."
     case searchAirport = "Search Airport."
     case searchingFlights = "Searching for Flights..."
+    case recentSearch = "Recent Search"
 
     var localized: String {
         return NSLocalizedString(self.rawValue, comment: "")

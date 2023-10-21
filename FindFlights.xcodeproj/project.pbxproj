@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3191487A2AE450FE0005F318 /* findflights.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 319148782AE450FE0005F318 /* findflights.xcdatamodeld */; };
+		3191487C2AE451290005F318 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3191487B2AE451290005F318 /* PersistenceController.swift */; };
+		3191487E2AE452710005F318 /* RecentSearchStorageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3191487D2AE452710005F318 /* RecentSearchStorageHandler.swift */; };
+		319148802AE471750005F318 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3191487F2AE471750005F318 /* StringExtension.swift */; };
+		319148822AE4726E0005F318 /* SearchFlightParametersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319148812AE4726E0005F318 /* SearchFlightParametersTest.swift */; };
+		319148852AE475C30005F318 /* RecentSearchParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319148842AE475C30005F318 /* RecentSearchParameters.swift */; };
+		319148892AE476F60005F318 /* MockRecentSearchStorageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319148882AE476F60005F318 /* MockRecentSearchStorageHandler.swift */; };
+		3191488B2AE478B10005F318 /* RecentSearchViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3191488A2AE478B10005F318 /* RecentSearchViewModelTest.swift */; };
+		319816E52AE41CBE00B1E608 /* RecentSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319816E42AE41CBE00B1E608 /* RecentSearchView.swift */; };
+		319816E72AE4233C00B1E608 /* RecentSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319816E62AE4233C00B1E608 /* RecentSearchViewModel.swift */; };
 		31AF4B0D2AE3AB870091B18B /* TravelDatePicker in Frameworks */ = {isa = PBXBuildFile; productRef = 31AF4B0C2AE3AB870091B18B /* TravelDatePicker */; };
 		31AF4B102AE3AE4F0091B18B /* FindFlightsInputField in Frameworks */ = {isa = PBXBuildFile; productRef = 31AF4B0F2AE3AE4F0091B18B /* FindFlightsInputField */; };
 		31B8C3AD2AE2C900001F4948 /* FindFlightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B8C3AC2AE2C900001F4948 /* FindFlightsApp.swift */; };
@@ -57,6 +67,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		319148792AE450FE0005F318 /* findflights.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = findflights.xcdatamodel; sourceTree = "<group>"; };
+		3191487B2AE451290005F318 /* PersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		3191487D2AE452710005F318 /* RecentSearchStorageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSearchStorageHandler.swift; sourceTree = "<group>"; };
+		3191487F2AE471750005F318 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		319148812AE4726E0005F318 /* SearchFlightParametersTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFlightParametersTest.swift; sourceTree = "<group>"; };
+		319148842AE475C30005F318 /* RecentSearchParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSearchParameters.swift; sourceTree = "<group>"; };
+		319148882AE476F60005F318 /* MockRecentSearchStorageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRecentSearchStorageHandler.swift; sourceTree = "<group>"; };
+		3191488A2AE478B10005F318 /* RecentSearchViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSearchViewModelTest.swift; sourceTree = "<group>"; };
+		319816E42AE41CBE00B1E608 /* RecentSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSearchView.swift; sourceTree = "<group>"; };
+		319816E62AE4233C00B1E608 /* RecentSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSearchViewModel.swift; sourceTree = "<group>"; };
 		31B8C3A92AE2C900001F4948 /* FindFlights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindFlights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B8C3AC2AE2C900001F4948 /* FindFlightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFlightsApp.swift; sourceTree = "<group>"; };
 		31B8C3B02AE2C901001F4948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -116,10 +136,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		319148772AE450A50005F318 /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				319148872AE476350005F318 /* RecentSearch */,
+				319148862AE476110005F318 /* CoreData */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		319148832AE4758C0005F318 /* BackEnd */ = {
+			isa = PBXGroup;
+			children = (
+				31B8C3DA2AE2C99C001F4948 /* Network */,
+				319148772AE450A50005F318 /* LocalStorage */,
+			);
+			path = BackEnd;
+			sourceTree = "<group>";
+		};
+		319148862AE476110005F318 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				319148782AE450FE0005F318 /* findflights.xcdatamodeld */,
+				3191487B2AE451290005F318 /* PersistenceController.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		319148872AE476350005F318 /* RecentSearch */ = {
+			isa = PBXGroup;
+			children = (
+				3191487D2AE452710005F318 /* RecentSearchStorageHandler.swift */,
+				319148842AE475C30005F318 /* RecentSearchParameters.swift */,
+			);
+			path = RecentSearch;
+			sourceTree = "<group>";
+		};
 		31AF4B092AE3A20C0091B18B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				31B8C4562AE33262001F4948 /* MockSearchAPIHandler.swift */,
+				319148882AE476F60005F318 /* MockRecentSearchStorageHandler.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -155,7 +212,7 @@
 			children = (
 				31B8C3E32AE2C99C001F4948 /* Modules */,
 				31B8C3D62AE2C942001F4948 /* App */,
-				31B8C3DA2AE2C99C001F4948 /* Network */,
+				319148832AE4758C0005F318 /* BackEnd */,
 				31B8C4452AE31484001F4948 /* Localization */,
 				31B8C3DF2AE2C99C001F4948 /* Constants */,
 				31B8C3D82AE2C99C001F4948 /* Extensions */,
@@ -168,7 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				31B8C43C2AE307E4001F4948 /* Mocks */,
-				31B8C4362AE30532001F4948 /* Module */,
+				31B8C4362AE30532001F4948 /* Modules */,
 			);
 			path = FindFlightsTests;
 			sourceTree = "<group>";
@@ -193,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				31B8C3D92AE2C99C001F4948 /* EncodableExtension.swift */,
+				3191487F2AE471750005F318 /* StringExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -277,6 +335,7 @@
 			children = (
 				31B8C3F02AE2C99C001F4948 /* SearchViewModel.swift */,
 				31B8C3F12AE2C99C001F4948 /* PassengerCountPickerViewModel.swift */,
+				319816E62AE4233C00B1E608 /* RecentSearchViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -296,6 +355,7 @@
 			children = (
 				31B8C3F82AE2C99C001F4948 /* SearchView.swift */,
 				31B8C3F92AE2C99C001F4948 /* PassengerCountPickerView.swift */,
+				319816E42AE41CBE00B1E608 /* RecentSearchView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -335,13 +395,13 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		31B8C4362AE30532001F4948 /* Module */ = {
+		31B8C4362AE30532001F4948 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
 				31B8C4372AE30540001F4948 /* Search */,
 				31B8C4532AE33148001F4948 /* FlightListing */,
 			);
-			path = Module;
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		31B8C4372AE30540001F4948 /* Search */ = {
@@ -350,6 +410,8 @@
 				31B8C4382AE3056B001F4948 /* SearchViewModelTest.swift */,
 				31B8C44F2AE32D9D001F4948 /* PassengerCountPickerViewModelTest.swift */,
 				31B8C4512AE32F9F001F4948 /* PassengerDetailsTest.swift */,
+				319148812AE4726E0005F318 /* SearchFlightParametersTest.swift */,
+				3191488A2AE478B10005F318 /* RecentSearchViewModelTest.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -527,11 +589,13 @@
 			files = (
 				31B8C4142AE2C99C001F4948 /* SearchView.swift in Sources */,
 				31B8C4092AE2C99C001F4948 /* FlightListViewModel.swift in Sources */,
+				319148802AE471750005F318 /* StringExtension.swift in Sources */,
 				31B8C4112AE2C99C001F4948 /* FlightSearchResponse.swift in Sources */,
 				31B8C4052AE2C99C001F4948 /* SearchAPIHandler.swift in Sources */,
 				31B8C4182AE2C99C001F4948 /* SearchBar.swift in Sources */,
 				31B8C4152AE2C99C001F4948 /* PassengerCountPickerView.swift in Sources */,
 				31B8C4172AE2C99C001F4948 /* SelectAirportViewModel.swift in Sources */,
+				319816E52AE41CBE00B1E608 /* RecentSearchView.swift in Sources */,
 				31B8C4022AE2C99C001F4948 /* EncodableExtension.swift in Sources */,
 				31B8C4042AE2C99C001F4948 /* NetworkHandler.swift in Sources */,
 				31B8C43B2AE306CE001F4948 /* FlightDetails.swift in Sources */,
@@ -539,9 +603,14 @@
 				31B8C4072AE2C99C001F4948 /* Constants.swift in Sources */,
 				31B8C4132AE2C99C001F4948 /* PassengerDetails.swift in Sources */,
 				31B8C4122AE2C99C001F4948 /* Airport.swift in Sources */,
+				319816E72AE4233C00B1E608 /* RecentSearchViewModel.swift in Sources */,
+				3191487A2AE450FE0005F318 /* findflights.xcdatamodeld in Sources */,
+				3191487C2AE451290005F318 /* PersistenceController.swift in Sources */,
+				3191487E2AE452710005F318 /* RecentSearchStorageHandler.swift in Sources */,
 				31B8C40E2AE2C99C001F4948 /* SearchViewModel.swift in Sources */,
 				31B8C40B2AE2C99C001F4948 /* LoadingSearchView.swift in Sources */,
 				31B8C40C2AE2C99C001F4948 /* FlightListingView.swift in Sources */,
+				319148852AE475C30005F318 /* RecentSearchParameters.swift in Sources */,
 				31B8C40F2AE2C99C001F4948 /* PassengerCountPickerViewModel.swift in Sources */,
 				31B8C4032AE2C99C001F4948 /* Endpoint.swift in Sources */,
 				31B8C3AD2AE2C900001F4948 /* FindFlightsApp.swift in Sources */,
@@ -559,9 +628,12 @@
 				31B8C44E2AE31EE8001F4948 /* MockApiResponseProvider.swift in Sources */,
 				31B8C4552AE33178001F4948 /* FlightListViewModelTest.swift in Sources */,
 				31B8C4502AE32D9D001F4948 /* PassengerCountPickerViewModelTest.swift in Sources */,
+				319148892AE476F60005F318 /* MockRecentSearchStorageHandler.swift in Sources */,
 				31B8C45B2AE33953001F4948 /* FlightSearchResponseTest.swift in Sources */,
 				31B8C4522AE32F9F001F4948 /* PassengerDetailsTest.swift in Sources */,
 				31B8C4392AE3056B001F4948 /* SearchViewModelTest.swift in Sources */,
+				3191488B2AE478B10005F318 /* RecentSearchViewModelTest.swift in Sources */,
+				319148822AE4726E0005F318 /* SearchFlightParametersTest.swift in Sources */,
 				31B8C4572AE33262001F4948 /* MockSearchAPIHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -841,6 +913,19 @@
 			productName = FindFlightsInputField;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		319148782AE450FE0005F318 /* findflights.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				319148792AE450FE0005F318 /* findflights.xcdatamodel */,
+			);
+			currentVersion = 319148792AE450FE0005F318 /* findflights.xcdatamodel */;
+			path = findflights.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 31B8C3A12AE2C900001F4948 /* Project object */;
 }
