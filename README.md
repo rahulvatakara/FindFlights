@@ -25,7 +25,7 @@ FindFlightsInputField: A reusable input field component we developed to maintain
 ## No Third-Party Dependencies:
 This application takes pride in its standalone nature. All components and dependencies are crafted in-house, ensuring maximum control, reliability, and cohesion in the design and functionality.
 
-Screenshots & Demo:
+## Screenshots & Demo:
 
 ![Search](https://github.com/rahulvatakara/FindFlights/blob/main/Screens/screen1.png)
 
