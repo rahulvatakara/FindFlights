@@ -1,0 +1,227 @@
+{
+    "termsOfUse": "https://www.ryanair.com/ie/en/corporate/terms-of-use=AGREED",
+    "currency": "EUR",
+    "currPrecision": 2,
+    "routeGroup": "CITY",
+    "tripType": "OTHER",
+    "upgradeType": "PLUS",
+    "trips": [
+        {
+            "origin": "DUB",
+            "originName": "Dublin ",
+            "destination": "AMS",
+            "destinationName": "Amsterdam",
+            "routeGroup": "CITY",
+            "tripType": "OTHER",
+            "upgradeType": "PLUS",
+            "dates": [
+                {
+                    "dateOut": "2023-10-26T00:00:00.000",
+                    "flights": [
+                        {
+                            "faresLeft": 2,
+                            "flightKey": "FR~ 420~ ~~DUB~10/26/2023 07:05~AMS~10/26/2023 09:45~~",
+                            "infantsLeft": 17,
+                            "regularFare": {
+                                "fareKey": "WQS6M566JPKPGTX7UUFOKLERS3UBJE5DRED7NFCEC7WFWMUPPV23HMXOBFUPPIWLSU2D6X2ZPKGDRRDA5I7KRG53JN6RC2XVFXOTTKTY66BV2YAGLS4C5QLXIU5GYK7SXTYECLSZTLKZAXWRJSYYLWEWZJTKYDCSBASTVNHSP46HXHZ43EDMUJNKQMGFEFVIFFNU7WWUSJ4B5GHJNBH7X7PLRHF5KM2QLYXLH4G4YFXEYETDHS3P23RFOEXL7XWACE5UACTPVP255AKONVA4FHE67Q",
+                                "fareClass": "P",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 195.87,
+                                        "count": 1,
+                                        "hasDiscount": false,
+                                        "publishedFare": 195.87,
+                                        "discountInPercent": 0,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 0.0,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "DUB",
+                                    "destination": "AMS",
+                                    "flightNumber": "FR 420",
+                                    "time": [
+                                        "2023-10-26T07:05:00.000",
+                                        "2023-10-26T09:45:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2023-10-26T06:05:00.000Z",
+                                        "2023-10-26T07:45:00.000Z"
+                                    ],
+                                    "duration": "01:40"
+                                }
+                            ],
+                            "flightNumber": "FR 420",
+                            "time": [
+                                "2023-10-26T07:05:00.000",
+                                "2023-10-26T09:45:00.000"
+                            ],
+                            "timeUTC": [
+                                "2023-10-26T06:05:00.000Z",
+                                "2023-10-26T07:45:00.000Z"
+                            ],
+                            "duration": "01:40"
+                        },
+                        {
+                            "faresLeft": -1,
+                            "flightKey": "FR~3006~ ~~DUB~10/26/2023 10:55~AMS~10/26/2023 13:35~~",
+                            "infantsLeft": 17,
+                            "regularFare": {
+                                "fareKey": "HWWRE6I5HYC6U5QZGMAAH7A5XIMYBX5NEOWQSOH5A5WGCQF7SK7PLOCCFZBEFGCPAXEPFERRXDTYZWMYUO7HJTPNO7KIFEM74VNBPJLLKRRVX3EU5RNNGROPIZA36PUKP4CYS7MJBC6QRSKPGIUBMYTELWPLOTAXXHRJRJ773JSHLZOUJYEMVDB3QM3REXAXTDUKM4VG7TM5DZ3UWEJ3X4HN4CAS4J7IGDCF5ULURG7ZYWFQRQGCLA36JRT4CS7OGIBSWVZUQIOMGQFBZYLCO4AOM4",
+                                "fareClass": "E",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 161.17,
+                                        "count": 1,
+                                        "hasDiscount": false,
+                                        "publishedFare": 161.17,
+                                        "discountInPercent": 0,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 0.0,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "DUB",
+                                    "destination": "AMS",
+                                    "flightNumber": "FR 3006",
+                                    "time": [
+                                        "2023-10-26T10:55:00.000",
+                                        "2023-10-26T13:35:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2023-10-26T09:55:00.000Z",
+                                        "2023-10-26T11:35:00.000Z"
+                                    ],
+                                    "duration": "01:40"
+                                }
+                            ],
+                            "flightNumber": "FR 3006",
+                            "time": [
+                                "2023-10-26T10:55:00.000",
+                                "2023-10-26T13:35:00.000"
+                            ],
+                            "timeUTC": [
+                                "2023-10-26T09:55:00.000Z",
+                                "2023-10-26T11:35:00.000Z"
+                            ],
+                            "duration": "01:40"
+                        },
+                        {
+                            "faresLeft": 1,
+                            "flightKey": "FR~3100~ ~~DUB~10/26/2023 15:25~AMS~10/26/2023 18:05~~",
+                            "infantsLeft": 16,
+                            "regularFare": {
+                                "fareKey": "HWWRE6I5HYC6U5QZGMAAH7A5XIMYBX5NEOWQSOH5A5WGCQF7SK7NJ66XGMNCUK3CT5XOFY4YJ6IAYSGEZX7FSF7GDO742B5HU4ROJ55KURUCSZ5HFINYZ6CKVKXVDV4MIAYO4NOUTQCRLU5ON34S4YNOEYUS5C5CQRGOHHUJGDLFHAZWMS3TF4UJICFH5STEBH3R7DFK7PJTSYDMZ7YZKR4Q2HXRUSA6PTTYYKPHZBOJR326NMGOQ46R7PQZ42MWGXSQBMLFSY6MAWDFEFZK7RLXUI",
+                                "fareClass": "E",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 171.05,
+                                        "count": 1,
+                                        "hasDiscount": false,
+                                        "publishedFare": 171.05,
+                                        "discountInPercent": 0,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 0.0,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "DUB",
+                                    "destination": "AMS",
+                                    "flightNumber": "FR 3100",
+                                    "time": [
+                                        "2023-10-26T15:25:00.000",
+                                        "2023-10-26T18:05:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2023-10-26T14:25:00.000Z",
+                                        "2023-10-26T16:05:00.000Z"
+                                    ],
+                                    "duration": "01:40"
+                                }
+                            ],
+                            "flightNumber": "FR 3100",
+                            "time": [
+                                "2023-10-26T15:25:00.000",
+                                "2023-10-26T18:05:00.000"
+                            ],
+                            "timeUTC": [
+                                "2023-10-26T14:25:00.000Z",
+                                "2023-10-26T16:05:00.000Z"
+                            ],
+                            "duration": "01:40"
+                        },
+                        {
+                            "faresLeft": 4,
+                            "flightKey": "FR~3102~ ~~DUB~10/26/2023 19:00~AMS~10/26/2023 21:40~~",
+                            "infantsLeft": 17,
+                            "regularFare": {
+                                "fareKey": "UKY7EYD23WKCX23UJ3SC2HAOJRROP4D57S6FPJNSCYZSZBXZ3INDBDGZSYJPFHAF2NMVMEYFVXKF7SJKFFSJ4FDXPELOTYWN7TNIVTBUFLUPQ43DBWSSK4KQBJDGCMQFS2QKQURL6X6ZFNPFZNPV2LWN32BMFM7F6N53HAUCT5EJKQPCCLLPATRU7KJ26ULPUD3KHXYTD2FTL3LE4IMHNJH4EAXFR2UAR25OURS6CRJIDIDOQJVZBYVZBLCBNFTZ2FZIGVYZKMX46XMFTVNJA4CJ2I",
+                                "fareClass": "L",
+                                "fares": [
+                                    {
+                                        "type": "ADT",
+                                        "amount": 210.94,
+                                        "count": 1,
+                                        "hasDiscount": false,
+                                        "publishedFare": 210.94,
+                                        "discountInPercent": 0,
+                                        "hasPromoDiscount": false,
+                                        "discountAmount": 0.0,
+                                        "hasBogof": false
+                                    }
+                                ]
+                            },
+                            "operatedBy": "",
+                            "segments": [
+                                {
+                                    "segmentNr": 0,
+                                    "origin": "DUB",
+                                    "destination": "AMS",
+                                    "flightNumber": "FR 3102",
+                                    "time": [
+                                        "2023-10-26T19:00:00.000",
+                                        "2023-10-26T21:40:00.000"
+                                    ],
+                                    "timeUTC": [
+                                        "2023-10-26T18:00:00.000Z",
+                                        "2023-10-26T19:40:00.000Z"
+                                    ],
+                                    "duration": "01:40"
+                                }
+                            ],
+                            "flightNumber": "FR 3102",
+                            "time": [
+                                "2023-10-26T19:00:00.000",
+                                "2023-10-26T21:40:00.000"
+                            ],
+                            "timeUTC": [
+                                "2023-10-26T18:00:00.000Z",
+                                "2023-10-26T19:40:00.000Z"
+                            ],
+                            "duration": "01:40"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "serverTimeUTC": "2023-10-20T22:15:27.919Z"
+}

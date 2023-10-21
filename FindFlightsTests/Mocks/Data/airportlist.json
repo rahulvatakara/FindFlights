@@ -1,0 +1,700 @@
+{
+    "stations": [
+        {
+            "code": "AAL",
+            "name": "Aalborg",
+            "alternateName": null,
+            "alias": [
+                "aalborg"
+            ],
+            "countryCode": "DK",
+            "countryName": "Denmark",
+            "countryAlias": null,
+            "countryGroupCode": "0",
+            "countryGroupName": "EU/EEA",
+            "timeZoneCode": "DK",
+            "latitude": "570535N",
+            "longitude": "0095100E",
+            "mobileBoardingPass": true,
+            "markets": [
+                {
+                    "code": "STN",
+                    "group": null
+                }
+            ],
+            "notices": null,
+            "tripCardImageUrl": "https://assets.ryanair.com/resources/ui/mobile/stations/AAL_v2.png"
+        },
+        {
+            "code": "AAR",
+            "name": "Aarhus",
+            "alternateName": null,
+            "alias": [
+                "aarhus"
+            ],
+            "countryCode": "DK",
+            "countryName": "Denmark",
+            "countryAlias": null,
+            "countryGroupCode": "0",
+            "countryGroupName": "EU/EEA",
+            "timeZoneCode": "DK",
+            "latitude": "561800N",
+            "longitude": "0103708E",
+            "mobileBoardingPass": true,
+            "markets": [
+                {
+                    "code": "GDN",
+                    "group": null
+                },
+                {
+                    "code": "STN",
+                    "group": "CITY_GOLD"
+                }
+            ],
+            "notices": null,
+            "tripCardImageUrl": "https://assets.ryanair.com/resources/ui/mobile/stations/AAR_v2.png"
+        },
+        {
+            "code": "ABZ",
+            "name": "Aberdeen",
+            "alternateName": null,
+            "alias": [
+                "aberdeen"
+            ],
+            "countryCode": "GB",
+            "countryName": "United Kingdom",
+            "countryAlias": null,
+            "countryGroupCode": "0",
+            "countryGroupName": "EU/EEA",
+            "timeZoneCode": "GB",
+            "latitude": "571215N",
+            "longitude": "0021153W",
+            "mobileBoardingPass": true,
+            "markets": [
+                {
+                    "code": "AGP",
+                    "group": "LEISURE_GOLD"
+                },
+                {
+                    "code": "ALC",
+                    "group": "LEISURE_GOLD"
+                },
+                {
+                    "code": "FAO",
+                    "group": "LEISURE_GOLD"
+                }
+            ],
+            "notices": null,
+            "tripCardImageUrl": "https://assets.ryanair.com/resources/ui/mobile/stations/ABZ_v2.png"
+        },
+        {
+            "code": "ACE",
+            "name": "Lanzarote",
+            "alternateName": null,
+            "alias": [
+                "lanzarote"
+            ],
+            "countryCode": "ES",
+            "countryName": "Spain",
+            "countryAlias": null,
+            "countryGroupCode": "0",
+            "countryGroupName": "EU/EEA",
+            "timeZoneCode": "ES2",
+            "latitude": "285615N",
+            "longitude": "0133613W",
+            "mobileBoardingPass": true,
+            "markets": [
+                {
+                    "code": "ATH",
+                    "group": null,
+                    "stops": [
+                        {
+                            "code": "BGY"
+                        }
+                    ],
+                    "onlyConnecting": true
+                },
+                {
+                    "code": "BCN",
+                    "group": "DOMESTIC"
+                },
+                {
+                    "code": "BDS",
+                    "group": null,
+                    "stops": [
+                        {
+                            "code": "BGY"
+                        }
+                    ],
+                    "onlyConnecting": true
+                },
+                {
+                    "code": "BER",
+                    "group": null
+                },
+                {
+                    "code": "BGY",
+                    "group": "CANARY"
+                },
+                {
+                    "code": "BHX",
+                    "group": "CANARY"
+                },
+                {
+                    "code": "BLQ",
+                    "group": "CANARY"
+                },
+                {
+                    "code": "BRS",
+                    "group": "CANARY"
+                },
+                {
+                    "code": "CAG",
+                    "group": null,
+                    "stops": [
+                        {
+                            "code": "BGY"
+                        }
+                    ],
+                    "onlyConnecting": true
+                },
+                {
+                    "code": "CRL",
+                    "group": "CANARY"
+                },
+                {
+                    "code": "DUB",
+                    "group": "CANARY"
+                },
+                {
+                    "code": "EDI",
+                    "group": "CANARY"
+                },
+                {
+                    "code": "EMA",
+                    "group": "CANARY"
+                },
+                {
+                    "code": "FRA",
+                    "group": null
+                },
+                {
+                    "code": "LBA",
+                    "group": "CANARY"
+                },
+                {
+                    "code": "LPL",
+                    "group": "CANARY"
+                },
+                {
+                    "code": "LTN",
+                    "group": "CANARY"
+                },
+                {
+                    "code": "MAD",
+                    "group": "DOMESTIC"
+                },
+                {
+                    "code": "MAN",
+                    "group": "CANARY"
+                },
+                {
+                    "code": "PIK",
+                    "group": "CANARY"
+                },
+                {
+                    "code": "PMO",
+                    "group": null,
+                    "stops": [
+                        {
+                            "code": "BGY"
+                        }
+                    ],
+                    "onlyConnecting": true
+                },
+                {
+                    "code": "SCQ",
+                    "group": "DOMESTIC_GOLD"
+                },
+                {
+                    "code": "SNN",
+                    "group": "CANARY"
+                },
+                {
+                    "code": "STN",
+                    "group": "CANARY"
+                },
+                {
+                    "code": "SVQ",
+                    "group": "DOMESTIC"
+                },
+                {
+                    "code": "VLC",
+                    "group": "DOMESTIC"
+                }
+            ],
+            "notices": null,
+            "tripCardImageUrl": "https://assets.ryanair.com/resources/ui/mobile/stations/ACE_v2.png"
+        },
+        {
+            "code": "ADB",
+            "name": "Adnan Menderes",
+            "alternateName": null,
+            "alias": [
+                "adnan",
+                "menderes"
+            ],
+            "countryCode": "TR",
+            "countryName": "Turkey",
+            "countryAlias": null,
+            "countryGroupCode": "1",
+            "countryGroupName": "non EU/EEA",
+            "timeZoneCode": "TR",
+            "latitude": "381700N",
+            "longitude": "0270900E",
+            "mobileBoardingPass": false,
+            "markets": [],
+            "notices": null
+        },
+        {
+            "code": "AGA",
+            "name": "Agadir",
+            "alternateName": null,
+            "alias": [
+                "agadir"
+            ],
+            "countryCode": "MA",
+            "countryName": "Morocco",
+            "countryAlias": null,
+            "countryGroupCode": "1",
+            "countryGroupName": "non EU/EEA",
+            "timeZoneCode": "MA",
+            "latitude": "301952N",
+            "longitude": "0092434W",
+            "mobileBoardingPass": false,
+            "markets": [
+                {
+                    "code": "BGY",
+                    "group": null
+                },
+                {
+                    "code": "BOD",
+                    "group": null
+                },
+                {
+                    "code": "CRL",
+                    "group": "ETHNIC"
+                },
+                {
+                    "code": "HHN",
+                    "group": null
+                },
+                {
+                    "code": "MRS",
+                    "group": "ETHNIC"
+                },
+                {
+                    "code": "NRN",
+                    "group": "ETHNIC"
+                },
+                {
+                    "code": "STN",
+                    "group": "LEISURE"
+                }
+            ],
+            "notices": null,
+            "tripCardImageUrl": "https://assets.ryanair.com/resources/ui/mobile/stations/AGA_v2.png"
+        },
+        {
+            "code": "AGH",
+            "name": "Angelholm",
+            "alternateName": null,
+            "alias": [
+                "angelholm"
+            ],
+            "countryCode": "SE",
+            "countryName": "Sweden",
+            "countryAlias": null,
+            "countryGroupCode": "0",
+            "countryGroupName": "EU/EEA",
+            "timeZoneCode": "SE",
+            "latitude": "561735N",
+            "longitude": "0125145E",
+            "mobileBoardingPass": true,
+            "markets": [],
+            "notices": null,
+            "tripCardImageUrl": "https://assets.ryanair.com/resources/ui/mobile/stations/AGH_v2.png"
+        },
+        {
+            "code": "AGP",
+            "name": "Malaga",
+            "alternateName": null,
+            "alias": [
+                "malaga"
+            ],
+            "countryCode": "ES",
+            "countryName": "Spain",
+            "countryAlias": null,
+            "countryGroupCode": "0",
+            "countryGroupName": "EU/EEA",
+            "timeZoneCode": "ES1",
+            "latitude": "364018N",
+            "longitude": "0042953W",
+            "mobileBoardingPass": true,
+            "markets": [
+                {
+                    "code": "ABZ",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "AMS",
+                    "group": null
+                },
+                {
+                    "code": "ATH",
+                    "group": null,
+                    "stops": [
+                        {
+                            "code": "BGY"
+                        }
+                    ],
+                    "onlyConnecting": true
+                },
+                {
+                    "code": "BCN",
+                    "group": "DOMESTIC"
+                },
+                {
+                    "code": "BER",
+                    "group": null
+                },
+                {
+                    "code": "BFS",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "BGY",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "BHX",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "BLL",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "BLQ",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "BOD",
+                    "group": null
+                },
+                {
+                    "code": "BOH",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "BRE",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "BRS",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "BRU",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "BTS",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "BUD",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "CAG",
+                    "group": null,
+                    "stops": [
+                        {
+                            "code": "BGY"
+                        }
+                    ],
+                    "onlyConnecting": true
+                },
+                {
+                    "code": "CGN",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "CPH",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "CRL",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "CTA",
+                    "group": null,
+                    "stops": [
+                        {
+                            "code": "FCO"
+                        }
+                    ],
+                    "onlyConnecting": true
+                },
+                {
+                    "code": "CWL",
+                    "group": null
+                },
+                {
+                    "code": "DUB",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "EDI",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "EIN",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "EMA",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "EXT",
+                    "group": null
+                },
+                {
+                    "code": "FCO",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "FEZ",
+                    "group": null
+                },
+                {
+                    "code": "FKB",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "FMM",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "FRA",
+                    "group": null
+                },
+                {
+                    "code": "GLA",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "GOT",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "HAM",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "HAU",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "HHN",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "IBZ",
+                    "group": "DOMESTIC"
+                },
+                {
+                    "code": "KRK",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "LBA",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "LIS",
+                    "group": null
+                },
+                {
+                    "code": "LPA",
+                    "group": null
+                },
+                {
+                    "code": "LPL",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "LTN",
+                    "group": null
+                },
+                {
+                    "code": "MAN",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "MRS",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "MXP",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "NAP",
+                    "group": null
+                },
+                {
+                    "code": "NCL",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "NOC",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "NRN",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "NYO",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "OPO",
+                    "group": null
+                },
+                {
+                    "code": "ORK",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "PIK",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "PMI",
+                    "group": "DOMESTIC"
+                },
+                {
+                    "code": "PMO",
+                    "group": null,
+                    "stops": [
+                        {
+                            "code": "BGY"
+                        }
+                    ],
+                    "onlyConnecting": true
+                },
+                {
+                    "code": "PRG",
+                    "group": null
+                },
+                {
+                    "code": "PSA",
+                    "group": "LEISURE",
+                    "stops": [
+                        {
+                            "code": "CRL"
+                        }
+                    ]
+                },
+                {
+                    "code": "RAK",
+                    "group": null
+                },
+                {
+                    "code": "SCQ",
+                    "group": "DOMESTIC"
+                },
+                {
+                    "code": "SDR",
+                    "group": "DOMESTIC"
+                },
+                {
+                    "code": "SEN",
+                    "group": null
+                },
+                {
+                    "code": "SKG",
+                    "group": null,
+                    "stops": [
+                        {
+                            "code": "CRL"
+                        }
+                    ],
+                    "onlyConnecting": true
+                },
+                {
+                    "code": "SNN",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "STN",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "SUF",
+                    "group": null,
+                    "stops": [
+                        {
+                            "code": "BGY"
+                        }
+                    ],
+                    "onlyConnecting": true
+                },
+                {
+                    "code": "TFS",
+                    "group": null
+                },
+                {
+                    "code": "TRF",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "TSF",
+                    "group": "LEISURE_GOLD"
+                },
+                {
+                    "code": "TTU",
+                    "group": null
+                },
+                {
+                    "code": "VIE",
+                    "group": null
+                },
+                {
+                    "code": "VIT",
+                    "group": null
+                },
+                {
+                    "code": "VST",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "WMI",
+                    "group": "LEISURE"
+                },
+                {
+                    "code": "WRO",
+                    "group": "LEISURE"
+                }
+            ],
+            "notices": null,
+            "tripCardImageUrl": "https://assets.ryanair.com/resources/ui/mobile/stations/AGP_v2.png"
+        }
+    ]
+}
+      

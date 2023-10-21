@@ -1,0 +1,34 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "%d" : {
+
+    },
+    "searchRoundTrip" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Round Trip"
+          }
+        }
+      }
+    },
+    "searchTravelType" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Travel type"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
