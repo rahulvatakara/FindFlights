@@ -63,15 +63,15 @@ class RecentSearchStorageHandler: RecentSearchStorageHandling {
         guard searchExists(for: recentSearchParameters) == false else {
             return
         }
-        let newRecentSearch = RecentSearchParameters(context: viewContext)
-        newRecentSearch.origin = recentSearchParameters.origin
-        newRecentSearch.destination = recentSearchParameters.destination
-        newRecentSearch.dateOut = recentSearchParameters.dateOut
-        newRecentSearch.dateIn = recentSearchParameters.dateIn
-        newRecentSearch.adultCount = Int16(recentSearchParameters.adultCount)
-        newRecentSearch.teenCount = Int16(recentSearchParameters.teenCount)
-        newRecentSearch.childCount = Int16(recentSearchParameters.childCount)
-        newRecentSearch.roundtrip = recentSearchParameters.roundtrip
+        let recentSearch = RecentSearchParameters(context: viewContext)
+        recentSearch.origin = recentSearchParameters.origin
+        recentSearch.destination = recentSearchParameters.destination
+        recentSearch.dateOut = recentSearchParameters.dateOut
+        recentSearch.dateIn = recentSearchParameters.dateIn
+        recentSearch.adultCount = Int16(recentSearchParameters.adultCount)
+        recentSearch.teenCount = Int16(recentSearchParameters.teenCount)
+        recentSearch.childCount = Int16(recentSearchParameters.childCount)
+        recentSearch.roundtrip = recentSearchParameters.roundtrip
         do {
             try viewContext.save()
         } catch {

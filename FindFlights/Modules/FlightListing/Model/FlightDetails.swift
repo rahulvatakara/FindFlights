@@ -15,7 +15,7 @@ public struct FlightDetails {
     var flightNumber: String
     var arrivalTime: String
     var destinationAirport: String
-    var fareType: String
+    var fareType: String?
     var price: String
     var destinationName: String
     var originName: String
@@ -34,7 +34,7 @@ public extension FlightSearchResponse {
                     let destinationAirport = trip.destination
                     let destinationName = trip.destinationName
                     let originName = trip.originName
-                    let fareType = flight.regularFare.fares.first?.type ?? ""
+                    let fareType = flight.regularFare.fares.first?.type
                     let price = "\(flight.regularFare.fares.first?.amount ?? 0.0) \(self.currency)"
                     
                     return FlightDetails(

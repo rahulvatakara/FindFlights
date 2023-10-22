@@ -97,6 +97,10 @@ final class SearchViewModel: ObservableObject {
         }
     }
 
+    func resetReturnDate() {
+        returnDate = nil
+    }
+
     private func constructFlightSearchParams() -> SearchFlightParameters {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd"

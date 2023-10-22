@@ -70,5 +70,4 @@ final class FlightListViewModel: ObservableObject {
     func saveSearchData() {
         recentSearchHandler.addRecentSearch(self.searchFlightParameters)
     }
-
 }

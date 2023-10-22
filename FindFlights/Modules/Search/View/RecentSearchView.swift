@@ -36,7 +36,7 @@ struct RecentSearchView: View {
             HStack {
                 Text(recentSearch.origin).font(.subheadline).fontWeight(.bold)
                 Spacer()
-                Image(systemName: recentSearch.roundtrip ? "arrow.left.arrow.right": "arrow.right")
+                Image(systemName: viewModel.tripTypeImage(isRoundTrip: recentSearch.roundtrip))
                 Spacer()
                 Text(recentSearch.destination).font(.subheadline).fontWeight(.bold)
             }

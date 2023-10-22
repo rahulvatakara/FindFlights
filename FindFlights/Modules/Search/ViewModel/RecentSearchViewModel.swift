@@ -27,4 +27,8 @@ class RecentSearchViewModel: ObservableObject  {
         let viewModel = FlightListViewModel(searchFlightParameters: recentSearch)
         return FlightListingView(viewModel: viewModel)
     }
+
+    func tripTypeImage(isRoundTrip: Bool) -> String {
+        isRoundTrip ? "arrow.left.arrow.right": "arrow.right"
+    }
 }

@@ -112,7 +112,7 @@ struct SearchView: View {
             Text(RYStrings.searchOneWay.rawValue).tag(1)
         }.pickerStyle(.segmented)
             .onChange(of: $viewModel.tripType.wrappedValue) { tag in
-                viewModel.returnDate = nil
+                viewModel.resetReturnDate()
             }
     }
 }

@@ -20,6 +20,12 @@ final class RecentSearchViewModelTest: XCTestCase {
         sut = RecentSearchViewModel(recentSearchStorageHandler: mockRecentSearchHandler)
     }
 
+    override func tearDownWithError() throws {
+        try super.tearDownWithError()
+        mockRecentSearchHandler = nil
+        sut = nil
+    }
+
     func testFetchRecentSearchs() {
         sut.fetchRecentSearchs()
 
@@ -48,9 +54,4 @@ final class RecentSearchViewModelTest: XCTestCase {
     
         XCTAssertTrue(mockRecentSearchHandler.deleteRecentsSearchCalled)
     }
-    
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
 }

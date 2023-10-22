@@ -45,6 +45,9 @@ final class FlightListViewModelTests: XCTestCase {
 
     override func tearDownWithError() throws {
         try super.tearDownWithError()
+        mockSearchAPI = nil
+        mockRecentSearchHandler = nil
+        sut = nil
     }
 
     func testFetchFlights()  {

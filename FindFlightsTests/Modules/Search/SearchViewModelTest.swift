@@ -18,6 +18,7 @@ final class SearchViewModelTest: XCTestCase {
     
     override func tearDownWithError() throws {
         try super.tearDownWithError()
+        sut = nil
     }
     
     func testIsRoundTripFalse() {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		313BE5202AE5771F007075C3 /* SelectAirportViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313BE51F2AE5771F007075C3 /* SelectAirportViewModelTest.swift */; };
 		3191487A2AE450FE0005F318 /* findflights.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 319148782AE450FE0005F318 /* findflights.xcdatamodeld */; };
 		3191487C2AE451290005F318 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3191487B2AE451290005F318 /* PersistenceController.swift */; };
 		3191487E2AE452710005F318 /* RecentSearchStorageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3191487D2AE452710005F318 /* RecentSearchStorageHandler.swift */; };
@@ -67,6 +68,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		313BE51F2AE5771F007075C3 /* SelectAirportViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAirportViewModelTest.swift; sourceTree = "<group>"; };
 		319148792AE450FE0005F318 /* findflights.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = findflights.xcdatamodel; sourceTree = "<group>"; };
 		3191487B2AE451290005F318 /* PersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		3191487D2AE452710005F318 /* RecentSearchStorageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentSearchStorageHandler.swift; sourceTree = "<group>"; };
@@ -136,6 +138,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		313BE51E2AE576FF007075C3 /* SelectAirport */ = {
+			isa = PBXGroup;
+			children = (
+				313BE51F2AE5771F007075C3 /* SelectAirportViewModelTest.swift */,
+			);
+			path = SelectAirport;
+			sourceTree = "<group>";
+		};
 		319148772AE450A50005F318 /* LocalStorage */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +234,7 @@
 		31B8C3BC2AE2C902001F4948 /* FindFlightsTests */ = {
 			isa = PBXGroup;
 			children = (
+				313BE51E2AE576FF007075C3 /* SelectAirport */,
 				31B8C43C2AE307E4001F4948 /* Mocks */,
 				31B8C4362AE30532001F4948 /* Modules */,
 			);
@@ -626,6 +637,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31B8C44E2AE31EE8001F4948 /* MockApiResponseProvider.swift in Sources */,
+				313BE5202AE5771F007075C3 /* SelectAirportViewModelTest.swift in Sources */,
 				31B8C4552AE33178001F4948 /* FlightListViewModelTest.swift in Sources */,
 				31B8C4502AE32D9D001F4948 /* PassengerCountPickerViewModelTest.swift in Sources */,
 				319148892AE476F60005F318 /* MockRecentSearchStorageHandler.swift in Sources */,
