@@ -21,7 +21,7 @@ class PassengerCountPickerViewModel: ObservableObject {
     }
 
     var maxNumberOfSeats: Int8 {
-        return 8
+        return 6
     }
 
     init(numberOfAdults: Int8,
