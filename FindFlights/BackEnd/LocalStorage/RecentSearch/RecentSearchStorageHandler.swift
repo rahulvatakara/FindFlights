@@ -15,7 +15,7 @@ protocol RecentSearchStorageHandling {
     func searchExists(for parameters: SearchFlightParameters) -> Bool
 }
 
-class RecentSearchStorageHandler: RecentSearchStorageHandling {
+final class RecentSearchStorageHandler: RecentSearchStorageHandling {
     private let persistenceController: PersistenceController
     
     var viewContext: NSManagedObjectContext {
@@ -78,17 +78,17 @@ class RecentSearchStorageHandler: RecentSearchStorageHandling {
             print("Failed to save new recent search: \(error)")
         }
     }
-
+    
     func searchExists(for parameters: SearchFlightParameters) -> Bool {
-          let request: NSFetchRequest<RecentSearchParameters> = RecentSearchParameters.fetchRequest()
-          let predicate = NSPredicate(format: "origin == %@ AND destination == %@", parameters.origin, parameters.destination)
-          request.predicate = predicate
-          do {
-              let results = try viewContext.fetch(request)
-              return results.count > 0
-          } catch {
-              print("Failed to fetch from Core Data: \(error)")
-              return false
-          }
-      }
+        let request: NSFetchRequest<RecentSearchParameters> = RecentSearchParameters.fetchRequest()
+        let predicate = NSPredicate(format: "origin == %@ AND destination == %@", parameters.origin, parameters.destination)
+        request.predicate = predicate
+        do {
+            let results = try viewContext.fetch(request)
+            return results.count > 0
+        } catch {
+            print("Failed to fetch from Core Data: \(error)")
+            return false
+        }
+    }
 }
